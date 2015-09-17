@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text=" Please select the categories that you want to be in the pool of questions. "
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <CheckBox
+        android:id="@+id/group1"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:text="Math (10)" />
+
+    <CheckBox
+        android:id="@+id/group2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/group1"
+        android:layout_alignBottom="@+id/group1"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/group1"
+        android:text="History (10)" />
+
+    <Button
+        android:id="@+id/finished"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:onClick="finished"
+        android:text="Finished" />
+
+    <CheckBox
+        android:id="@+id/group4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/group2"
+        android:layout_marginTop="46dp"
+        android:layout_toRightOf="@+id/group3"
+        android:text="Pop Culture (10)" />
+
+    <CheckBox
+        android:id="@+id/group3"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/group4"
+        android:layout_alignParentLeft="true"
+        android:text="Human Geography (10)" />
+
+    <CheckBox
+        android:id="@+id/group6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/group5"
+        android:layout_alignBottom="@+id/group5"
+        android:layout_alignLeft="@+id/group4"
+        android:layout_alignParentRight="true"
+        android:text="Disney (10)" />
+
+    <CheckBox
+        android:id="@+id/group5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/group3"
+        android:layout_centerVertical="true"
+        android:text="Technology (10)" />
+
+    <CheckBox
+        android:id="@+id/group7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/group5"
+        android:layout_marginTop="31dp"
+        android:layout_toLeftOf="@+id/group8"
+        android:text="Biology (10)" />
+
+    <CheckBox
+        android:id="@+id/group8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/group7"
+        android:layout_alignBottom="@+id/group7"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/group5"
+        android:text="Virginia Tech (10)" />
+
+</RelativeLayout>
