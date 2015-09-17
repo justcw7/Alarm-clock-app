@@ -22,7 +22,7 @@ import android.view.Menu;
 /**
  * This part of the application is used for setting time
  *
- * @author Nicholas Kilmer
+ * @author Nicholas Kilmer, Justin Whitt
  * @version Apr 7, 2014
  */
 public class SecondscreenActivity

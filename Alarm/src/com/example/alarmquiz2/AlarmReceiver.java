@@ -16,7 +16,7 @@ import android.content.BroadcastReceiver;
 /**
  * Uses broadcast receiver to allow the alarm to work
  *
- * @author Nicholas Kilmer
+ * @author Nicholas Kilmer, Justin Whitt
  * @version Apr 9, 2014
  */
 public class AlarmReceiver
